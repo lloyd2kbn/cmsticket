@@ -1,0 +1,22 @@
+.input_search{
+    background-color: 
+    #F7F7F8;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    max-width: 430px;
+  
+        .input_search_input{
+            border: none;
+            background-color:   #F7F7F8;
+            border-radius: 12px;
+            height: 40px;
+            width: 430px;
+            outline: none;
+            font-size: 16px;
+        }
+        svg{
+            margin-right: 14px;
+        }
+      
+}

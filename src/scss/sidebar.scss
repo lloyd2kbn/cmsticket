@@ -1,0 +1,58 @@
+@import './variable.scss';
+@mixin sidebarItem{
+        color: $text-color;
+        font-weight: 800;
+        text-decoration: none;
+        display: block;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: center;   
+        border-radius: 8px;
+    
+}
+.sidebar{
+        height: 100vh;
+        width: 360px;
+        background-color: #E5E5E5;
+        .sidebar-container{
+                padding-top: 17px;
+                margin-left: 33px;
+                margin-right: 33px;
+                .sidebar-img{
+                        width: 133px;
+                        height: 58px;
+                      
+                }
+                .sidebar-list-item{
+                        margin-top: 59px;
+                        .sidebar-item-link{
+                                @include sidebarItem();
+                                .sidebar-item{
+                                        min-width: 190px
+                                }
+                                
+                        }
+                        .sidebar-item-link--active{
+                                @include sidebarItem();
+                                color: $white-text-color;
+                                background-color: #FFB800;
+                                .sidebar-item{
+                                        min-width: 190px;
+                                }
+                               
+                                
+                        }
+                        svg{
+                                margin-right: 15px;
+                                position: relative;
+                                top: 4px;
+                        }
+                        .sidebar-item-link-children{
+                                position: relative;
+                                left: 50px;
+                        }
+                }
+        }
+     
+}

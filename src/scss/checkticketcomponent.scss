@@ -1,0 +1,137 @@
+.check_ticket_component{
+    padding: 16px;
+    background-color: #E5E5E5;
+    height: 95vh;
+    .check_ticket_head{
+        display: flex;
+        justify-content: space-between;
+        .check_ticket_right{
+            color: white;
+            font-weight: 700;
+            background-color: #FF993C;
+            padding: 0 8px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .check_ticket_body{
+        display: flex;
+        margin-top: 20px;
+        color: black;
+        font-weight: 500;
+        height: 70vh;
+        display: flex;
+        
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 70%;
+            border-radius: 8px;
+            overflow-y: scroll;
+            background-color: white;
+          }
+          .doisoat-active{
+              color: red;
+          }
+          
+          #customers td, #customers th {
+           
+            padding: 8px;
+          }
+          
+          #customers tr:nth-child(even){background-color: #f2f2f2;}
+          
+          #customers tr:hover {background-color: #ddd;}
+          
+          #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #F1F4F8;
+            color: black;
+          }
+          .check_filter_ticket{
+              background-color: white;
+              padding: 22px;
+              border: 1px solid #F1F4F8;
+              flex: 1;
+              margin-left: 20px;
+              border-radius: 8px;
+                h3{
+                    margin-bottom: 22px;
+                }
+                .check_filter_body{
+                    margin-top: 24px;
+                    font-size: 14px;
+                    width: 80%;
+                    font-weight: 600;
+                    .check_filter_body_radios{
+                        .check_filter_body_radio{
+                            padding: 6px 0;
+                        }
+                    }
+                   .check_filter_body_top{
+                       display: flex;
+                       flex: 1;
+                       justify-content: space-between   ;
+                   }
+                   .check_filter_type{
+                       display: flex;
+                       flex: 1;
+                       justify-content: space-between;
+                        margin-top: 24px;
+                   }
+                   .check-from-date{
+                            margin-top: 24px;
+                            display: flex;
+                            justify-content: space-between;
+                   }
+                   .check-to-date{
+                             margin-top: 24px;
+                             display: flex;
+                             justify-content: space-between;
+                   }
+                   .btn-filter{
+                       margin-top: 24px;
+                       color: #FF993C;
+                       width: 80px;
+                       height: 40px;
+                       display: flex;
+                       align-items: center;
+                       justify-content: center;
+                       border: 1px solid #FF993C;
+                       outline: none;
+                       margin-left: auto;
+                       margin-right: 18px;
+                   }
+                  
+                   
+                }
+               
+          }
+    }
+     .redirect-items{
+         margin-top: 24px;
+        justify-content: center;
+         display: flex;
+         font-weight: 600;
+         .redirect-item{
+             padding: 5px;
+             a{
+                 color: black;
+                 text-decoration: none;
+             }
+         }
+         .redirect-item--active{
+             padding: 5px 8px;
+             border: 1px solid #FF993C;
+             color: #FF993C;
+         }
+         
+     }
+}

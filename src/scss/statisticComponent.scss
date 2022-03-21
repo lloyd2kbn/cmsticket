@@ -1,0 +1,32 @@
+.statistic_container{
+    padding: 24px;
+    .statistic-info{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+        .statistic-revenue-title{
+            font-weight: 600;
+        }
+        .statistic-date{
+            margin-top: 20px;
+        }
+    }
+    .total-statistic-title{
+        margin-top: 30px;
+    }
+    .total-statistic{
+            display: flex;
+           
+            .total-statistic-unit{
+                color: black;
+                font-size: 10px;
+                font-weight: 600;
+                line-height: 30px;
+            }
+    }
+    .container-donut{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

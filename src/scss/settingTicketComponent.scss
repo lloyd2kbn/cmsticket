@@ -1,0 +1,95 @@
+.setting_ticket_component{
+    padding: 24px;
+
+    .setting_ticket_title{
+        font-size: 23px;
+    }
+    .redirect-items{
+        justify-content: center;
+         display: flex;
+         font-weight: 600;
+         .redirect-item{
+             padding: 5px;
+             a{
+                 color: black;
+                 text-decoration: none;
+             }
+         }
+         .redirect-item--active{
+             padding: 5px 8px;
+             border: 1px solid #FF993C;
+         }
+         
+     }
+    .input_flex_component{
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+        .button_groups{
+            display: flex;
+            font-weight: 600;
+            align-items: center;
+            justify-content: center;
+            .button_item--transparent{
+                border: #FF993C 1px solid;
+                color: #FF993C;
+                background-color: white;
+                padding: 10px;
+                outline: none;
+            }
+            .button_item--primary{
+                color: white;
+                background-color: #FF993C;
+                padding: 10px;
+                outline: none;
+                margin-left: 10px;
+    
+            }
+        }
+    }
+    .setting_ticket_component_body{
+        height: 60vh;
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 25px;
+            font-weight: 500;
+            font-size: 13px;
+            overflow-y: scroll;
+            
+            .ticket_using{
+                color: #03AC00;
+                border: 2px solid #03AC00;
+            }
+            .ticket_off{
+                color: #FD5959;
+                border: 2px solid #FD5959;
+            }
+            .setting_update{
+                color: #FF993C;
+            }
+          }
+          
+          #customers td, #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+          }
+          
+          #customers tr:nth-child(even){background-color: #f2f2f2;}
+          
+          #customers tr:hover {background-color: #ddd;}
+          
+          #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #F1F4F8;
+            color: black;
+          }
+
+    }
+  
+
+   
+}
